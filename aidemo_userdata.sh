@@ -7,4 +7,4 @@ nvm install node
 cd aidemo
 npm i
 npm run build # has an interactive yes or no
-npm run start
+npm run start &

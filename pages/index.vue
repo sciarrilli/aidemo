@@ -24,12 +24,12 @@
                   </header>
     
                   <footer class="flex items-center justify-between leading-none p-2 md:p-4">
-                      <a class="flex items-center no-underline hover:underline text-black" href="#">
+                      <a class="flex items-center no-underline hover:underline text-black" :href="service.link">
                           <p class="text-sm">
                               {{ service.category }}
                           </p>
                       </a>
-                      <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
+                      <a class="no-underline text-grey-darker hover:text-red-dark" :href="service.link">
                           <span class="hidden">Like</span>
                           <i class="fa fa-heart"></i>
                       </a>
@@ -90,7 +90,7 @@
                 "image": "https://images.unsplash.com/photo-1531747118685-ca8fa6e08806?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
                 "name": "Amazon Personalize",
                 "category": "Personalized recommendations",
-                "link": "https://aws.amazon.com/personalize/"
+                "link": "https://octankhotels.sciarrilli.com"
             },
             {
                 "name": "Amazon Polly",
@@ -102,7 +102,7 @@
                 "name": "Amazon Rekognition",
                 "image": "https://images.unsplash.com/photo-1526666923127-b2970f64b422?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60",
                 "category": "Image and video analysis",
-                "link": "https://aws.amazon.com/rekognition/"
+                "link": "https://octankhotels.sciarrilli.com"
             },
             {
                 "name": "Amazon Textract",
