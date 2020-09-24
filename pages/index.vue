@@ -17,7 +17,7 @@
     
                   <header class="flex items-center justify-between leading-tight p-2 md:p-4">
                       <h1 class="text-lg">
-                          <a class="no-underline hover:underline text-black" :href="service.image">
+                          <a class="no-underline hover:underline text-black" :href="service.link">
                               {{ service.name }}
                           </a>
                       </h1>
